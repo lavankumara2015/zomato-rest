@@ -45,6 +45,40 @@ h2{
     padding: 90px;
     
 }
+.lk1{
+    position: relative;
+    bottom: 190px;
+    left: 100px;
+    color: rgb(246, 243, 243);
+    font-weight: 900;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: 2px underline;
+    text-underline-offset: 5px;
+}
+.lk2{
+    position: relative;
+    bottom: 220px;
+    left: 570px;
+    color: rgb(17, 17, 17);
+    font-weight: 900;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: 2px underline;
+    text-underline-offset: 5px;
+    
+}
+.lk4{
+    position: relative;
+    bottom: 252px;
+    left: 950px;
+    color: rgb(20, 17, 17);
+    font-weight: 900;
+    font-size: x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-decoration: 2px underline ;
+    text-underline-offset: 5px;
+}
 
 .lv{
     text-align: center;
@@ -86,11 +120,11 @@ h2{
     box-sizing: border-box;
 }
 
-.container{
+.Lavan1{
     max-width: 1170px;
     margin: auto;
 }
-.row{
+.Lavan2{
     display: flex;
     flex-wrap: wrap;
 }
@@ -103,13 +137,13 @@ ul{
     padding: 70px 0;
 
 }
-.footer-col{
+.lavan3{
 
     width: 25%;
     padding:0 15px ;
 
 }
-.footer-col h3{
+.lavan3 h3{
     font-size: 18px;
     color: #ffffff;
     text-transform: capitalize;
@@ -118,23 +152,23 @@ ul{
     position: relative;
 
 }
-.footer-col h3::before{
+.lavan3 h3::before{
     content: '';
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color:#e91e63;
+    background-color:#f40f0f;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
 
 
 }
-.footer-col ul li:not(:last-child){
+.lavan3 ul li:not(:last-child){
      margin-bottom:10px;
 }
 
-.footer-col ul li a{
+.lavan3 ul li a{
     font-size: 16px;
     text-transform: capitalize;
     color: #ffffff;
@@ -146,12 +180,12 @@ ul{
 
 
 }
-.footer-col ul li a:hover{
+.lavan3 ul li a:hover{
     color: #ffffff;
     padding-left: 8px;
 
 }
-.footer-col .social-links a{
+.lavan3 .social-links a{
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -164,19 +198,7 @@ ul{
     transition: all 0.5s ease;
 
 }
-.footer-col .social-links a:hover{
+.lavan3 .social-links a:hover{
     color: #24262b;
     background-color: #ffffff;
-}
-/*responsive*/
-@media(max-widht: 767px){
-    .footer-col{
-        width: 50%;
-        margin-bottom: 30px;
-    }
-}
-@media(max-widht: 574px){
-    .footer-col{
-        width: 100%;
-    }
 }
